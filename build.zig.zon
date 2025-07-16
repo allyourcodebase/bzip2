@@ -1,0 +1,16 @@
+.{
+    .name = .bzip2,
+    .version = "1.0.8",
+    .fingerprint = 0x81bc4b11cf8fb09b,
+    .minimum_zig_version = "0.14.1",
+    .dependencies = .{
+        .upstream = .{
+            .url = "git+https://github.com/libarchive/bzip2#bzip2-1.0.8",
+            .hash = "N-V-__8AANChDwAITDmkzIqB-9m_iaOXSquhghM2-AqDFcX8",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+    },
+}
